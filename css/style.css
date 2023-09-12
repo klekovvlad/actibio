@@ -81,15 +81,16 @@ body {
   background-size: cover;
 }
 .app[data-page="1"] {
-  padding: 0px 0px 100px;
+  padding: 0px 0px 70px;
   background-image: url("../img/fon-1.jpg");
+  background-position: 0 -20px;
 }
 .app[data-page="1"]::before {
   content: "";
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   position: absolute;
-  top: 15%;
+  top: 12%;
   left: 30px;
   background: url("../img/slogan.png") no-repeat center;
   background-size: contain;
@@ -334,7 +335,7 @@ body {
   color: #fff;
   font-weight: 700;
   height: 42px;
-  max-width: calc(100vw - 30px);
+  max-width: calc(100% - 60px);
   margin: 0px auto;
 }
 
